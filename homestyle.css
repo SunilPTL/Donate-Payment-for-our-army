@@ -1,0 +1,70 @@
+body{
+    margin: o;
+    background-image:url(images/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #0005;
+    line-height: 50px;
+    position: sticky;
+    overflow: hidden;
+}
+nav ul{
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+}
+nav ul li :hover{
+    background-color: #237DE3;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+.navtitle{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin-left: 20px;
+}
+.onbox > img{
+    background-repeat: no-repeat;
+    height: 280px;
+    width: 280px;
+    margin-left: 15%;
+}
+.btndesign{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    
+}
+.whole{
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 0 32px 0 rgba(31,38,135,0.37);
+    background: linear-gradient(to right,#c7c7c7,white);
+    opacity: 0.7;
+    border: 1px solid #c7c7c7;
+    position: absolute;
+    left: 8%;
+    top: 14%;
+}
+.mssg{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
